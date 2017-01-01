@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Exercices Pec",
+    "link": "/pec",
+    "icon": ""
+  },
+  {
+    "title": "Exercices Dos",
+    "link": "/dos",
+    "icon": ""
+  },
+  {
+    "title": "Exercices Jambes",
+    "link": "/jambes",
+    "icon": ""
+  },
+  {
+    "title": "Exercices Epaules",
+    "link": "/epaules",
+    "icon": ""
+  },
+  {
+    "title": "Exercices Bras",
+    "link": "/bras",
+    "icon": ""
+  }
+]

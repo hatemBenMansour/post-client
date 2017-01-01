@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Musculation",
+    "link": "/building",
+    "icon": ""
+  },
+  {
+    "title": "Météo",
+    "link": "/weather",
+    "icon": ""
+  },
+  {
+    "title": "My wife",
+    "link": "tel:+33782131952",
+    "icon": ""
+  },
+  {
+    "title": "Heure de prière",
+    "link": "/pray",
+    "icon": ""
+  },
+  {
+    "title": "Rappel",
+    "link": "/reminder",
+    "icon": ""
+  }
+]
