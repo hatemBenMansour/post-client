@@ -8,7 +8,8 @@ import {MainComponent} from './main';
 import {HeaderComponent} from './header/header';
 import {FooterComponent} from './footer/footer';
 import {DashboardComponent} from './dashboard/dashboard';
-import {BuildingComponent} from './building/building';
+import {BuildingListComponent} from './building/list/building-list';
+import {BuildingDetailsComponent} from './building/details/building-details';
 import {WeatherComponent} from './weather/weather';
 import {PrayComponent} from './pray/pray';
 import {ReminderComponent} from './reminder/reminder';
@@ -25,7 +26,8 @@ import {ReminderComponent} from './reminder/reminder';
     HeaderComponent,
     FooterComponent,
     DashboardComponent,
-    BuildingComponent,
+    BuildingListComponent,
+    BuildingDetailsComponent,
     WeatherComponent,
     PrayComponent,
     ReminderComponent

@@ -15,7 +15,11 @@ export class BuildingService {
   getList(): Observable<BuildingModel[]> {
     return this.http
       .get('app/building/building.menu.elements.json')
-      .map(response => response.json());
+      .map(response => <BuildingModel[]>response.json());
+  }
+  get(id:number):Observable<BuildingModel>{
+    return this.getList()
+      .map((buildings: BuildingModel[]) => buildings.find(building => building.id === id));
   }
 
 

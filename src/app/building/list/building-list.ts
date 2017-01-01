@@ -1,15 +1,16 @@
 import {Component, OnInit} from "@angular/core";
-import {BuildingService} from "./building.service";
+import {BuildingService} from "../building.service";
+import {BuildingModel} from "../building.model";
 
 
 @Component({
-  template: require('./building.html'),
+  template: require('./building-list.html'),
   providers: [BuildingService]
 })
 
-export class BuildingComponent implements OnInit {
+export class BuildingListComponent implements OnInit {
 
-  public buildingElements;
+  public buildingElements:BuildingModel[];
 
   buildingService: BuildingService;
 

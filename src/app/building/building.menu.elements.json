@@ -1,27 +1,37 @@
 [
   {
+    "id":1,
     "title": "Exercices Pec",
     "link": "/pec",
-    "icon": ""
+    "icon": "",
+    "content":"Excercice pour les pec"
   },
   {
+    "id":2,
     "title": "Exercices Dos",
     "link": "/dos",
-    "icon": ""
+    "icon": "",
+    "content":"Excercices pour le dos"
   },
   {
+    "id":3,
     "title": "Exercices Jambes",
     "link": "/jambes",
-    "icon": ""
+    "icon": "",
+    "content":"Excercice pour les jambes"
   },
   {
+    "id":4,
     "title": "Exercices Epaules",
     "link": "/epaules",
-    "icon": ""
+    "icon": "",
+    "content":"Excercice pour les épaules"
   },
   {
+    "id":5,
     "title": "Exercices Bras",
     "link": "/bras",
-    "icon": ""
+    "icon": "",
+    "content":"Excercice pour les bras"
   }
 ]

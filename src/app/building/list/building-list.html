@@ -1,0 +1,6 @@
+<h1>Musculations</h1>
+<ul>
+  <li *ngFor="let element of buildingElements">
+    <a [routerLink]="['/building', element.id]"  >{{element.title}}</a>
+  </li>
+</ul>
